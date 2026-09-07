@@ -6,6 +6,11 @@ import RohitPfp from '../assets/Team/Rohit.jpg'
 import IanPfp from '../assets/Team/Ian.jpg'
 import IanBio from '../components/TeamMember/bios/IanBio'
 
+import NuradilBio  from '../components/TeamMember/bios/NuradilBio'
+
+import ObaidullahBio from '../components/TeamMember/bios/ObaidullahBio'
+import ObaidullahPfp from '../assets/Team/Obaidullah.jpg'
+
 const team = [
     {
         name: "Rohit Vennelakanti",
@@ -32,14 +37,14 @@ const team = [
         name: "Nuradil Kumarov",
         role: "Github Master",
         photo: genericPfp,
-        bio: "<bio>"
+        bio: NuradilBio
     },
 
     {
         name: "Obaidullah Darwishi",
         role: "AI Master",
-        photo: genericPfp,
-        bio: "<bio>"
+        photo: ObaidullahPfp,
+        bio: ObaidullahBio
     },
 
     {
