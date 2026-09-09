@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, whitesmoke, #3092c0, whitesmoke);
+
+}
+
+#logo{
+    height: 75px;
+    margin: 0;
+}
+
+.nav-btn{
+    background: transparent;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    color: #297ca3;
+    text-decoration: none;
+}
+
+.nav-btn:hover{
+    background-image: linear-gradient(to right, #297ca3, #3092c0, #3092c0, #297ca3);
+    color: whitesmoke;
+}

@@ -30,6 +30,22 @@
   background-color: whitesmoke;
 }
 
+.box-header{
+  color: navy;
+  border-bottom: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to right, whitesmoke, whitesmoke, navy, whitesmoke, whitesmoke);
+  margin-bottom: 1rem;
+}
+
+.box-body{
+  color: navy;
+}
+
+.us{
+  max-width: 45%;
+}
+
 .about-details{
   flex-direction: column;
   justify-content: space-evenly;
