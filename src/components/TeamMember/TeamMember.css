@@ -10,6 +10,15 @@
     height: auto;
 }
 
+.app.dark .team-member{
+    border: solid 1px #3092c0;
+    box-shadow: 0px 0px 6px #44a8d6;
+    border-radius: 4px;
+    background-color: #3C3C3C;
+    text-shadow: 0 0 20px black;
+    color: #44a8d6;
+}
+
 .team-member img {
     border-radius: 4px;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
@@ -22,4 +31,8 @@
 .role{
     color: grey;
     margin-bottom: 1rem;
+}
+
+.app.dark .role{
+    color: #3092c0;
 }

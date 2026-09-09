@@ -1,3 +1,14 @@
+.app{
+  min-height: 100vh;
+  background-color: #ececec;
+  color: #222;
+  font-family: sans-serif; 
+}
+
+.app.dark{
+  background-color: #2E2E2E;
+}
+
 .banner {
   text-align: center;
   letter-spacing: 3px;
@@ -30,6 +41,14 @@
   background-color: whitesmoke;
 }
 
+.app.dark .box{
+  border: solid 1px #3092c0;
+  box-shadow: 0px 0px 6px #44a8d6;
+  border-radius: 4px;
+  background-color: #3C3C3C;
+  text-shadow: 0 0 20px black;
+}
+
 .box-header{
   color: navy;
   border-bottom: 2px solid;
@@ -38,8 +57,17 @@
   margin-bottom: 1rem;
 }
 
+.app.dark .box-header{
+  color: #44a8d6;
+  border-image-source: linear-gradient(to right, #3C3C3C, #3C3C3C, #3092c0, #3C3C3C, #3C3C3C);
+}
+
 .box-body{
-  color: navy;
+  color: rgb(43, 43, 143);
+}
+
+.app.dark .box-body{
+  color: #3092c0;
 }
 
 .us{
