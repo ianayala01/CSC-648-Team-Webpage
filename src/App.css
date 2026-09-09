@@ -1,8 +1,9 @@
 .app{
-  min-height: 100vh;
+  min-height: 150vh;
   background-color: #ececec;
   color: #222;
   font-family: sans-serif; 
+  margin: 0;
 }
 
 .app.dark{
