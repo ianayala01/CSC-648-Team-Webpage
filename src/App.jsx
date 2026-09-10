@@ -6,6 +6,7 @@ import Navbar from "./components/NavBar/Navbar";
 import Footer from "./components/Footer/Footer";
 
 import About from "./pages/About";
+import Login from "./pages/Login";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,6 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
+          <Route path="/login" element={<Login darkMode={darkMode}/>} />
         </Routes>
         <Footer />
       </div>

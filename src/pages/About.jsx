@@ -58,6 +58,7 @@ function About() {
             name={member.name}
             role={member.role}
             bio={member.bio}
+            github={member.github}
             />
           ))}
         </div>

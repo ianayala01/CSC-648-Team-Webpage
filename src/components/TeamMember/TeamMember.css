@@ -10,6 +10,37 @@
     height: auto;
 }
 
+.github-linker{
+    text-decoration: none;
+    color: black;
+}
+
+.app.dark .github-linker{
+    color: #44a8d6;
+}
+
+.app.dark .github-linker:hover{
+    color: whitesmoke;
+}
+
+.bio-container .bio{
+    display: none;
+}
+
+.bio-container:hover .bio{
+    display: inline-block;
+}
+.bio-container:hover .trigger-txt{
+    display: none;
+}
+
+.team-member:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px #44a8d6;
+    border: solid 1px #3092c0;
+}
+
 .app.dark .team-member{
     border: solid 1px #3092c0;
     box-shadow: 0px 0px 6px #44a8d6;
@@ -17,6 +48,19 @@
     background-color: #3C3C3C;
     text-shadow: 0 0 20px black;
     color: #44a8d6;
+}
+
+.app.dark .team-member:hover{
+    background-color: #44a8d6;
+    color: whitesmoke;
+}
+
+.app.dark .team-member:hover .role{
+    color: whitesmoke;
+}
+
+.app.dark .team-member:hover .github-linker{
+    color: whitesmoke;
 }
 
 .team-member img {

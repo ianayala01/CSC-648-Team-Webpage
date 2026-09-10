@@ -36,6 +36,11 @@
     text-decoration: none;
 }
 
+.active{
+    text-shadow: 0 0 10px #3092c0;
+    color: #3092c0;
+}
+
 .app.dark .nav-btn{
     color: #3092c0;
 }

@@ -16,42 +16,48 @@ const team = [
         name: "Rohit Vennelakanti",
         role: "Team Lead",
         photo: RohitPfp,
-        bio: RohitBio
+        bio: RohitBio,
+        github: "https://github.com/ro111t"
     },
 
     {
         name: "Fanta Phommachith",
         role: "Scrum Master",
         photo: genericPfp,
-        bio: "<bio>"
+        bio: "<bio>",
+        github: "https://github.com/fphommachith"
     },
 
     {
         name: "Ali Coklu",
-        role: "Backend-Lead",
+        role: "Backend Lead",
         photo: genericPfp,
-        bio: "<bio>"
+        bio: "<bio>",
+        github: "https://github.com/CokluAli"
     },
 
     {
         name: "Nuradil Kumarov",
         role: "Github Master",
         photo: genericPfp,
-        bio: NuradilBio
+        bio: NuradilBio,
+        github: "https://github.com/Nuradil22"
     },
 
     {
         name: "Obaidullah Darwishi",
         role: "AI Master",
         photo: ObaidullahPfp,
-        bio: ObaidullahBio
+        bio: ObaidullahBio,
+        github: "https://github.com/ObaidullahDarwishi"
     },
 
     {
         name: "Ian Ayala",
-        role: "Frontend-Lead",
+        role: "Frontend Lead",
         photo: IanPfp,
-        bio: IanBio
+        bio: IanBio,
+        github: "https://github.com/ianayala01"
     }
 ];
 

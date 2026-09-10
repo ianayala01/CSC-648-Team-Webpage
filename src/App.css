@@ -65,6 +65,8 @@
 
 .box-body{
   color: rgb(43, 43, 143);
+  line-height: 23px;
+  font-size: 20px;
 }
 
 .app.dark .box-body{
@@ -87,5 +89,5 @@
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2rem 10rem 2rem 10rem;
 }
