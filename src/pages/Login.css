@@ -1,6 +1,6 @@
 .login-page{
     display: flex;
-    min-height: calc(100vh - 80px);
+    height: calc(100vh - 80px);
 }
 
 .auth-panel, .auth-art{
@@ -32,6 +32,6 @@
 
 .auth-art img{
     width: 100%;
-    height: 120vh;
+    height: auto;
     object-fit: cover;
 }
